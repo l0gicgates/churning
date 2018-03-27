@@ -1,5 +1,16 @@
 # Churning Acronyms Glossary
-Simple Chrome extension to replace most the r/churning related acronyms with their meaning. 
+This is a simple Google Chrome extension to replace most the r/churning related acronyms with their meaning when navigating the churning subreddit. 
+
+## Installation
+Currently this extension does not live in the Google Chrome Appstore and will need to be installed manually as an unpacked extension 
+1. Clone the project to a local folder. 
+2. Type this on Google Chrome's address bar chrome://extensions/ 
+3. Turn on 'Developer Mode'
+4. Click on 'Load Unpacked Extension'
+5. Open up the folder on Step 1
+
+
+
 Below are the currently supported acronyms and their meaning
 
 ## Rewards Programs
