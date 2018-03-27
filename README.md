@@ -1,4 +1,4 @@
-# Churning Acronyms Glossary
+# Reddit Churning Acronyms Glossary
 This is a simple Google Chrome extension to replace most the r/churning related acronyms with their meaning when navigating the churning subreddit. 
 
 ## Installation
