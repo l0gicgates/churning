@@ -21,6 +21,7 @@ for (var i = 0; i < elements.length; i++) {
              replacedText = replacedText.replace(/ MS /g, ' MS (Manufacturing Spending) ');
              replacedText = replacedText.replace(/ MSR /g, ' MSR (Minimum Spending Requirement) ');
              replacedText = replacedText.replace(/ DP /g, ' DP (Data Point) ');
+             replacedText = replacedText.replace(/ DPs /g, ' DPs (Data Points) ');
              replacedText = replacedText.replace(/ BE /g, ' BE (Basic Economy) ');
              replacedText = replacedText.replace(/ CC /g, ' CC (Credit Card) ');
              replacedText = replacedText.replace(/ CL /g, ' CL (Credit Limit) ');
