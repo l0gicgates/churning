@@ -61,11 +61,19 @@ for (var i = 0; i < elements.length; i++) {
              replacedText = replacedText.replace(/ SW /g, ' SW (Southwest Airlines) ');
              replacedText = replacedText.replace(/ DL /g, ' DL (Delta Airlines) ');
              replacedText = replacedText.replace(/ UA /g, ' UA (United Airlines) ');
+             replacedText = replacedText.replace(/ ETH /g, ' ETH (Etihad Airways) ');
              replacedText = replacedText.replace(/ F /g, ' F (First Class) ');
              replacedText = replacedText.replace(/ J /g, ' J (Business Class) ');
              replacedText = replacedText.replace(/ Y /g, ' Y (Economy Class) ');
              replacedText = replacedText.replace(/ YQ /g, ' YQ (Fuel Surcharge) ');
              replacedText = replacedText.replace(/ RT /g, ' RT (Round Trip) ');
+            
+            //airport codes
+            replacedText = replacedText.replace(/ ORD /g, ' ORD (Chicago, IL Airport) ');
+            replacedText = replacedText.replace(/ BNA /g, ' BNA (Nashville, TN Airport) ');
+            replacedText = replacedText.replace(/ JFK /g, ' JFK (Queens, NY Airport) ');
+            replacedText = replacedText.replace(/ IAD /g, ' IAD (Washington, D.C. Airport) ');
+            replacedText = replacedText.replace(/ LAX /g, ' LAX (Los Angeles, CA Airport) ');
 
             // blogs
             replacedText = replacedText.replace(/ FT /g, ' FT (Flyer Talk Blog) ');
