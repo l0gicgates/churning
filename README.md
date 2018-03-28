@@ -2,7 +2,9 @@
 This is a simple Google Chrome extension to replace most the r/churning related acronyms with their meaning when navigating the churning subreddit. 
 
 ## Installation
-Currently this extension does not live in the Google Chrome Appstore and will need to be installed manually as an unpacked extension 
+https://chrome.google.com/webstore/detail/reddit-churning-acronyms/dlhngejlobicakmbdmpjlcmncgfbmhfa?utm_source=gmail
+or it can be installed manually as an unpacked extension in order to make changes to it.
+
 1. Clone the project to a local folder. 
 2. Type this on Google Chrome's address bar chrome://extensions/ 
 3. Turn on 'Developer Mode'
@@ -25,6 +27,7 @@ Below are the currently supported acronyms and their meaning
 * MS (Manufacturing Spending) 
 * MSR (Minimum Spending Requirement)
 * DP (Data Point) 
+* DPs (Data Points)
 * BE (Basic Economy) 
 * CC (Credit Card)
 * CL (Credit Limit) 
