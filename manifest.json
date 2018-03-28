@@ -1,9 +1,8 @@
 {
 "manifest_version": 2,
     "name": "Reddit Churning Acronyms",
-    "short_name":"r/churning",
     "description": "Replaces common churning acronyms with their actual meaning",
-    "version": "1.0.1",
+    "version": "1.0",
     "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -12,9 +11,11 @@
     "content_scripts": [
         {
             "matches": [
-                "*://www.reddit.com/r/churning/c*"
+                "*://www.reddit.com/r/churning/*"
             ],
             "js": [
+                "vendor/jquery-3.3.1.min.js",
+                "replacement_map.js",
                 "content.js"
             ],
             "run_at": "document_end"
