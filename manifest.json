@@ -1,8 +1,9 @@
 {
 "manifest_version": 2,
     "name": "Reddit Churning Acronyms",
+    "short_name":"r/churning",
     "description": "Replaces common churning acronyms with their actual meaning",
-    "version": "1.0",
+    "version": "1.0.1",
     "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
