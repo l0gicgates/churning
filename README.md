@@ -43,11 +43,15 @@ Below are the currently supported acronyms and their meaning
 * SO (Significant Other) 
 * HUCA (Hang Up and Call Again)
 * 5/24 (5 credit cards in 24 months)
+* PPDG (PayPal Digital Gifts)
+* FTF (Foreign Transaction Fee)
+* HP (Hard Pull - Credit Check)
 
 ## Credit Agencies
 * EQ (Eqifax) 
 * EX (Experian) 
 * TU (TransUnion) 
+* CRA (Credit Reporting Agency)
 
 ## Cards / Banks
 * CSR (Chase Sapphire Reserve or Customer Service Rep)
@@ -62,9 +66,11 @@ Below are the currently supported acronyms and their meaning
 * MPE (Mileage Plus Explorer) 
 * RB (Redbird Target Prepaid)
 * AMEX (American Express) 
+* BP (American Express BlueBird Prepaid) 
 * MCGC (MasterCard Gift Card) 
 * PP (Priority Pass) 
 * CP (Southwest Companion Pass)
+* VGC (Visa Gift Card)
              
 ## Airlines
 * AA (American Airlines) 
@@ -83,6 +89,8 @@ Below are the currently supported acronyms and their meaning
 * CX (Cathay Airlines)
 * EI (Aer Lingus Airlines)
 * EK (Emirates)
+* VS (Virgin Atlantic)
+* VA (Virgin Australia)
 
 ## Airports
 * ORD (Chicago, IL Airport)

@@ -16,5 +16,10 @@ let credit_agencies_map = [
     'regex': '\\b(TU)\\b',
     'options': 'g',
     'replacement': 'TU (TransUnion)'
+  },
+  {
+    'regex': '\\b(CRA)\\b',
+    'options': 'g',
+    'replacement': 'CRA (Credit Reporting Agency)'
   }
 ];

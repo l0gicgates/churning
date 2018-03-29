@@ -96,7 +96,20 @@ let general_terms_map = [
     'regex': '\\b(5/24)\\b',
     'options': 'g',
     'replacement': '5/24 (5 credit cards in 24 months)'
+  },
+  {
+    'regex': '\\b(PPDG)\\b',
+    'options': 'g',
+    'replacement': 'PPDG (PayPal Digital Gifts)'
+  },
+  {
+    'regex': '\\b(FTF)\\b',
+    'options': 'g',
+    'replacement': 'FTF (Foreign Transaction Fee)'
+  },
+  {
+    'regex': '\\b(HP)\\b',
+    'options': 'g',
+    'replacement': 'HP (Hard Pull)'
   }
-
-  
 ];

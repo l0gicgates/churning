@@ -63,6 +63,16 @@ let airlines_map = [
     'replacement': 'ETH (Etihad Airways)'
   },
   {
+    'regex': '\\b(VS)\\b',
+    'options': 'g',
+    'replacement': 'VS (Virgin Atlantic)'
+  },
+  {
+    'regex': '\\b(VA)\\b',
+    'options': 'g',
+    'replacement': 'VA (Virgin Australia)'
+  },
+  {
     'regex': '\\b(F)\\b',
     'options': 'g',
     'replacement': 'F (First Class)'

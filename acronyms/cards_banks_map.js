@@ -53,6 +53,11 @@ let cards_banks_map = [
     'replacement': 'MPE (Mileage Plus Explorer)'
   },
   {
+    'regex': '\\b(BP)\\b',
+    'options': 'g',
+    'replacement': 'BP (American Express BlueBird Prepaid)'
+  },
+  {
     'regex': '\\b(RB)\\b',
     'options': 'g',
     'replacement': 'RB (Redbird Target Prepaid)'
@@ -76,5 +81,10 @@ let cards_banks_map = [
     'regex': '\\b(PP)\\b',
     'options': 'g',
     'replacement': 'PP (Priority Pass)'
+  },
+  {
+    'regex': '\\b(VGC)\\b',
+    'options': 'g',
+    'replacement': 'VGC (Visa Gift Card)'
   }
 ];
