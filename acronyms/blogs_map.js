@@ -5,7 +5,7 @@ let blogs_map = [
   {
     'regex': '\\b(FT)\\b',
     'options': 'g',
-    'replacement': 'FT (Flyer Talk Blog)'
+    'replacement': 'FT (Flyer Talk Forums)'
   },
   {
     'regex': '\\bDoC\b',
