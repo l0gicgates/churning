@@ -16,6 +16,7 @@ elements = elements.concat(commentBodies.get());
 // Loop through each replacement item and convert the string to a regex. If you invert this loop, you'll have to
 // call regex constructors n^2 number of times. This way you only have to parse the regex n times.
 airlines_map.map(r => elements.map(e => $(e).text($(e).text().replace(new RegExp(r.regex, r.options), r.replacement))));
+airports_map.map(r => elements.map(e => $(e).text($(e).text().replace(new RegExp(r.regex, r.options), r.replacement))));
 blogs_map.map(r => elements.map(e => $(e).text($(e).text().replace(new RegExp(r.regex, r.options), r.replacement))));
 cards_banks_map.map(r => elements.map(e => $(e).text($(e).text().replace(new RegExp(r.regex, r.options), r.replacement))));
 credit_agencies_map.map(r => elements.map(e => $(e).text($(e).text().replace(new RegExp(r.regex, r.options), r.replacement))));

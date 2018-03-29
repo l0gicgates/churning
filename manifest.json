@@ -11,11 +11,13 @@
     "content_scripts": [
         {
             "matches": [
-                "*://www.reddit.com/r/churning/*"
+                "*://www.reddit.com/r/churning/*",
+                "*://www.reddit.com/r/awardtravel/*"
             ],
             "js": [
                 "vendor/jquery-3.3.1.min.js",
                 "acronyms/airlines_map.js",
+                "acronyms/airports_map.js",
                 "acronyms/blogs_map.js",
                 "acronyms/cards_banks_map.js",
                 "acronyms/credit_agencies_map.js",
