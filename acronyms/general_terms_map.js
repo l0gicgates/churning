@@ -91,5 +91,12 @@ let general_terms_map = [
     'regex': '\\b(SO)\\b',
     'options': 'g',
     'replacement': 'SO (Significant Other)'
+  },
+  {
+    'regex': '\\b(5/24)\\b',
+    'options': 'g',
+    'replacement': '5/24 (5 credit cards in 24 months)'
   }
+
+  
 ];

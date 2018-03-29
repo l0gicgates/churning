@@ -42,6 +42,7 @@ Below are the currently supported acronyms and their meaning
 * CPP (Cents per Point) 
 * SO (Significant Other) 
 * HUCA (Hang Up and Call Again)
+* 5/24 (5 credit cards in 24 months)
 
 ## Credit Agencies
 * EQ (Eqifax) 
@@ -55,7 +56,9 @@ Below are the currently supported acronyms and their meaning
 * CIC (Chase Ink Cash) 
 * CPC (Chase Private Client) 
 * CF (Chase Freedom) 
-* CFU (Chase Freedom Unlimited) 
+* CFU (Chase Freedom Unlimited)
+* BCP (Amex Blue Cash Preferred) 
+* BCP (Amex Blue Cash Everyday) 
 * MPE (Mileage Plus Explorer) 
 * RB (Redbird Target Prepaid)
 * AMEX (American Express) 

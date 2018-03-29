@@ -38,6 +38,16 @@ let cards_banks_map = [
     'replacement': 'CFU (Chase Freedom Unlimited)'
   },
   {
+    'regex': '\\b(BCE)\\b',
+    'options': 'g',
+    'replacement': 'BCE (Amex Blue Cash Everyday)'
+  },
+   {
+    'regex': '\\b(BCP)\\b',
+    'options': 'g',
+    'replacement': 'BCP (Amex Blue Cash Preferred)'
+  },
+  {
     'regex': '\\b(MPE)\\b',
     'options': 'g',
     'replacement': 'MPE (Mileage Plus Explorer)'
