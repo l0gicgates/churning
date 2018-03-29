@@ -1,5 +1,5 @@
 # Reddit Churning Acronyms Glossary
-This is a simple Google Chrome extension to replace most the r/churning related acronyms with their meaning when navigating the churning subreddit. 
+This is a simple Google Chrome extension to replace most the r/churning related acronyms with their meaning when navigating the churning or awardtravel subreddits. 
 
 ## Installation
 https://chrome.google.com/webstore/detail/reddit-churning-acronyms/dlhngejlobicakmbdmpjlcmncgfbmhfa?utm_source=gmail
@@ -79,6 +79,13 @@ Below are the currently supported acronyms and their meaning
 * CX (Cathay Airlines)
 * EI (Aer Lingus Airlines)
 * EK (Emirates)
+
+## Airports
+* ORD (Chicago, IL Airport)
+* JFK (Queens, NY Airport)
+* BNA (Nashville, TN Airport)
+* IAD (Washington, D.C. Airport)
+* LAX (Los Angeles, CA Airport)
 
 ## Blogs
 * FT (Flyer Talk Blog) ;
