@@ -15,7 +15,12 @@
             ],
             "js": [
                 "vendor/jquery-3.3.1.min.js",
-                "replacement_map.js",
+                "acronyms/airlines_map.js",
+                "acronyms/blogs_map.js",
+                "acronyms/cards_banks_map.js",
+                "acronyms/credit_agencies_map.js",
+                "acronyms/general_terms_map.js",
+                "acronyms/rewards_programs_map.js",
                 "content.js"
             ],
             "run_at": "document_end"
