@@ -67,6 +67,7 @@ Below are the currently supported acronyms and their meaning
 * AA (American Airlines) 
 * BA (British Airways) 
 * SW (Southwest Airlines)
+* WN (Southwest Airlines)
 * DL (Delta Airlines) 
 * UA (United Airlines)
 * F (First Class) 
