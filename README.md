@@ -89,5 +89,5 @@ Below are the currently supported acronyms and their meaning
 * LAX (Los Angeles, CA Airport)
 
 ## Blogs
-* FT (Flyer Talk Blog) ;
+* FT (Flyer Talk Forums) ;
 * DoC (Doctor of Credit Blog)
