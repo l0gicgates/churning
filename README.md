@@ -41,6 +41,7 @@ Below are the currently supported acronyms and their meaning
 * GE (Global Entry)
 * CPP (Cents per Point) 
 * SO (Significant Other) 
+* HUCA (Hang Up and Call Again)
 
 ## Credit Agencies
 * EQ (Eqifax) 
@@ -49,8 +50,8 @@ Below are the currently supported acronyms and their meaning
 
 ## Cards / Banks
 * CSR (Chase Sapphire Reserve or Customer Service Rep)
-* CSP (Chase Sapphire Preffered)
-* CIP (Chase Ink Preffered) 
+* CSP (Chase Sapphire Preferred)
+* CIP (Chase Ink Preferred) 
 * CIC (Chase Ink Cash) 
 * CPC (Chase Private Client) 
 * CF (Chase Freedom) 
@@ -60,6 +61,7 @@ Below are the currently supported acronyms and their meaning
 * AMEX (American Express) 
 * MCGC (MasterCard Gift Card) 
 * PP (Priority Pass) 
+* CP (Southwest Companion Pass)
              
 ## Airlines
 * AA (American Airlines) 
@@ -72,6 +74,11 @@ Below are the currently supported acronyms and their meaning
 * Y (Economy Class) 
 * YQ (Fuel Surcharge)
 * RT (Round Trip) 
+* AS (Alaska Airlines)
+* B6 (JetBlue)
+* CX (Cathay Airlines)
+* EI (Aer Lingus Airlines)
+* EK (Emirates)
 
 ## Blogs
 * FT (Flyer Talk Blog) ;
