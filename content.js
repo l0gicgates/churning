@@ -25,4 +25,4 @@ acronym_maps = [].concat.apply([], [
 
 // Loop through each replacement item and convert the string to a regex. If you invert this loop, you'll have to
 // call regex constructors n^2 number of times. This way you only have to parse the regex n times.
-acronym_maps.map(r => elements.map(e => $(e).text($(e).text().replace(new RegExp(r.regex, r.options), r.replacement))));
+acronym_maps.map(r => elements.map(e => $(e).html($(e).html().replace(new RegExp(r.regex, r.options), r.replacement))));
