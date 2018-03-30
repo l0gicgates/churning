@@ -98,6 +98,11 @@ let general_terms_map = [
     'replacement': '5/24 (5 credit cards in 24 months)'
   },
   {
+    'regex': '\\b(2/30)\\b',
+    'options': 'g',
+    'replacement': '2/30 (2 applications in 30 days)'
+  },
+  {
     'regex': '\\b(PPDG)\\b',
     'options': 'g',
     'replacement': 'PPDG (PayPal Digital Gifts)'

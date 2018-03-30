@@ -3,7 +3,7 @@
 
 let cards_banks_map = [
   {
-    'regex': '\\b(CSR)\\b',
+    'regex': '\\b(CSR).?\\b', //added wildcard to allow for plurals
     'options': 'g',
     'replacement': 'CSR (Chase Sapphire Reserve or Customer Service Rep)'
   },
@@ -11,6 +11,16 @@ let cards_banks_map = [
     'regex': '\\b(CSP)\\b',
     'options': 'g',
     'replacement': 'CSP (Chase Sapphire Preferred)'
+  },
+  {
+    'regex': '\\b(CU)\\b',
+    'options': 'g',
+    'replacement': 'CU (Credit Union)'
+  },
+  {
+    'regex': '\\b(IHG)\\b',
+    'options': 'g',
+    'replacement': 'IHG (Chase IHG Rewards Select)'
   },
   {
     'regex': '\\b(CIP)\\b',
@@ -48,6 +58,16 @@ let cards_banks_map = [
     'replacement': 'BCP (Amex Blue Cash Preferred)'
   },
   {
+    'regex': '\\b(BBP)\\b',
+    'options': 'g',
+    'replacement': 'BBP (Amex Blue Business Plus)'
+  },
+  {
+    'regex': '\\b(MB)\\b',
+    'options': 'g',
+    'replacement': 'MB (Amex Mercedes Benz Platinum)'
+  },
+  {
     'regex': '\\b(MPE)\\b',
     'options': 'g',
     'replacement': 'MPE (Mileage Plus Explorer)'
@@ -71,6 +91,11 @@ let cards_banks_map = [
     'regex': '\\b(Cap1)\\b',
     'options': 'g',
     'replacement': 'Cap1 (Capital One)'
+  },
+  {
+    'regex': '\\b(USB)\\b',
+    'options': 'g',
+    'replacement': 'USB (US Bank)'
   },
   {
     'regex': '\\b(MCGC)\\b',

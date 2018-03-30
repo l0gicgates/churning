@@ -36,5 +36,10 @@ let rewards_programs_map = [
     'regex': '\\b(FF)\\b',
     'options': 'g',
     'replacement': 'FF (Frequent Flyer Miles)'
+  },
+  {
+    'regex': '\\b(FFM)\\b',
+    'options': 'g',
+    'replacement': 'FFM (Frequent Flyer Miles)'
   }
 ];

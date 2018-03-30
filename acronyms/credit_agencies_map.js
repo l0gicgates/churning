@@ -21,5 +21,10 @@ let credit_agencies_map = [
     'regex': '\\b(CRA)\\b',
     'options': 'g',
     'replacement': 'CRA (Credit Reporting Agency)'
+  },
+  {
+    'regex': '\\b(CRB)\\b',
+    'options': 'g',
+    'replacement': 'CRB (Credit Reporting Bureau)'
   }
 ];
