@@ -63,9 +63,9 @@ let cards_banks_map = [
     'replacement': 'BBP (Amex Blue Business Plus)'
   },
   {
-    'regex': '\\b(MB)\\b',
+    'regex': '\\b(MB( Plati.*)?)\\b',
     'options': 'g',
-    'replacement': 'MB (Amex Mercedes Benz Platinum)'
+    'replacement': '$1 (Amex Mercedes Benz Platinum)'
   },
   {
     'regex': '\\b(MPE)\\b',

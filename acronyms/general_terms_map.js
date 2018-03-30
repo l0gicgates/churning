@@ -116,5 +116,10 @@ let general_terms_map = [
     'regex': '\\b(HPs?)\\b',
     'options': 'g',
     'replacement': '$1 (Hard Pull)'
+  },
+  {
+    'regex': '\\b(SPs?)\\b',
+    'options': 'g',
+    'replacement': '$1 (Soft Pull)'
   }
 ];
