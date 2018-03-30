@@ -13,12 +13,16 @@ elements = elements.concat(postTitle.get());
 elements = elements.concat(postBody.get());
 elements = elements.concat(commentBodies.get());
 
+acronym_maps = [].concat.apply([], [
+    airlines_map,
+    airports_map,
+    blogs_map,
+    cards_banks_map,
+    credit_agencies_map,
+    general_terms_map,
+    rewards_programs_map,
+])
+
 // Loop through each replacement item and convert the string to a regex. If you invert this loop, you'll have to
 // call regex constructors n^2 number of times. This way you only have to parse the regex n times.
-airlines_map.map(r => elements.map(e => $(e).text($(e).text().replace(new RegExp(r.regex, r.options), r.replacement))));
-airports_map.map(r => elements.map(e => $(e).text($(e).text().replace(new RegExp(r.regex, r.options), r.replacement))));
-blogs_map.map(r => elements.map(e => $(e).text($(e).text().replace(new RegExp(r.regex, r.options), r.replacement))));
-cards_banks_map.map(r => elements.map(e => $(e).text($(e).text().replace(new RegExp(r.regex, r.options), r.replacement))));
-credit_agencies_map.map(r => elements.map(e => $(e).text($(e).text().replace(new RegExp(r.regex, r.options), r.replacement))));
-general_terms_map.map(r => elements.map(e => $(e).text($(e).text().replace(new RegExp(r.regex, r.options), r.replacement))));
-rewards_programs_map.map(r => elements.map(e => $(e).text($(e).text().replace(new RegExp(r.regex, r.options), r.replacement))));
+acronym_maps.map(r => elements.map(e => $(e).text($(e).text().replace(new RegExp(r.regex, r.options), r.replacement))));
