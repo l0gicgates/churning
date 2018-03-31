@@ -21,7 +21,7 @@ Below are the currently supported acronyms and their meaning
 * RR (Southwest Rapid Rewards) 
 * PGR (Premier Gold Rewards) 
 * TYP (Citi Thank You Points) 
-* FF (Frequent Flyer Miles) 
+* FF/FFM (Frequent Flyer Miles) 
 
 ## General Terms
 * MS (Manufacturing Spending) 
@@ -31,6 +31,7 @@ Below are the currently supported acronyms and their meaning
 * BE (Basic Economy) 
 * CC (Credit Card)
 * CL (Credit Limit) 
+* CLI (Credit Limit Increase)
 * CR (Credit Report) 
 * AF (Annual Fee) 
 * Recon (Reconsideration) 
@@ -43,15 +44,18 @@ Below are the currently supported acronyms and their meaning
 * SO (Significant Other) 
 * HUCA (Hang Up and Call Again)
 * 5/24 (5 credit cards in 24 months)
+* 2/30 (2 applications in 30 days)
 * PPDG (PayPal Digital Gifts)
 * FTF (Foreign Transaction Fee)
 * HP (Hard Pull - Credit Check)
+* SP (Soft Pull - Credit Check)
 
 ## Credit Agencies
 * EQ (Eqifax) 
 * EX (Experian) 
 * TU (TransUnion) 
 * CRA (Credit Reporting Agency)
+* CRB (Credit Reporting Bureau)
 
 ## Cards / Banks
 * CSR (Chase Sapphire Reserve or Customer Service Rep)
@@ -71,6 +75,11 @@ Below are the currently supported acronyms and their meaning
 * PP (Priority Pass) 
 * CP (Southwest Companion Pass)
 * VGC (Visa Gift Card)
+* CU (Credit Union)
+* IHG (Chase IHG Rewards Select)
+* BBP (Amex Blue Business Plus)
+* MB (Amex Mercedes Benz Platinum)
+* USB (US Bank)
              
 ## Airlines
 * AA (American Airlines) 
