@@ -8,19 +8,14 @@ let general_terms_map = [
     'replacement': 'MS (Manufacturing Spending)'
   },
   {
-    'regex': '\\b(MSR)\\b',
+    'regex': '\\b(MSRs?)\\b',
     'options': 'g',
-    'replacement': 'MSR (Minimum Spending Requirement)'
+    'replacement': '$1 (Minimum Spending Requirement)'
   },
   {
-    'regex': '\\b(DP)\\b',
+    'regex': '\\b(DPs?)\\b',
     'options': 'g',
-    'replacement': 'DP (Data Point)'
-  },
-  {
-    'regex': '\\b(DPs)\\b',
-    'options': 'g',
-    'replacement': 'DPs (Data Points)'
+    'replacement': '$1 (Data Point)'
   },
   {
     'regex': '\\b(HUCA)\\b',
@@ -38,19 +33,24 @@ let general_terms_map = [
     'replacement': 'CC (Credit Card)'
   },
   {
-    'regex': '\\b(CL)\\b',
+    'regex': '\\b(CLs?)\\b',
     'options': 'g',
-    'replacement': 'CL (Credit Limit)'
+    'replacement': '$1 (Credit Limit)'
   },
   {
-    'regex': '\\b(CR)\\b',
+    'regex': '\\b(CLIs?)\\b',
     'options': 'g',
-    'replacement': 'CR (Credit Report)'
+    'replacement': '$1 (Credit Limit Increase)'
   },
   {
-    'regex': '\\b(AF)\\b',
+    'regex': '\\b(CRs?)\\b',
     'options': 'g',
-    'replacement': 'AF (Annual Fee)'
+    'replacement': '$1 (Credit Report)'
+  },
+  {
+    'regex': '\\b(AFs?)\\b',
+    'options': 'g',
+    'replacement': '$1 (Annual Fee)'
   },
   {
     'regex': '\\b(Recon)\\b',
@@ -58,14 +58,14 @@ let general_terms_map = [
     'replacement': 'Recon (Reconsideration)'
   },
   {
-    'regex': '\\b(DD)\\b',
+    'regex': '\\b(DDs?)\\b',
     'options': 'g',
-    'replacement': 'DD (Direct Deposit)'
+    'replacement': '$1 (Direct Deposit)'
   },
   {
-    'regex': '\\b(MO)\\b',
+    'regex': '\\b(MOs?)\\b',
     'options': 'g',
-    'replacement': 'MO (Money Order)'
+    'replacement': '$1 (Money Order)'
   },
   {
     'regex': '\\b(PC)\\b',
@@ -73,9 +73,9 @@ let general_terms_map = [
     'replacement': 'PC (Product Change)'
   },
   {
-    'regex': '\\b(SM)\\b',
+    'regex': '\\b(SMs?)\\b',
     'options': 'g',
-    'replacement': 'SM (Secure Message)'
+    'replacement': '$1 (Secure Message)'
   },
   {
     'regex': '\\b(GE)\\b',
@@ -98,6 +98,11 @@ let general_terms_map = [
     'replacement': '5/24 (5 credit cards in 24 months)'
   },
   {
+    'regex': '\\b(2/30)\\b',
+    'options': 'g',
+    'replacement': '2/30 (2 applications in 30 days)'
+  },
+  {
     'regex': '\\b(PPDG)\\b',
     'options': 'g',
     'replacement': 'PPDG (PayPal Digital Gifts)'
@@ -108,8 +113,13 @@ let general_terms_map = [
     'replacement': 'FTF (Foreign Transaction Fee)'
   },
   {
-    'regex': '\\b(HP)\\b',
+    'regex': '\\b(HPs?)\\b',
     'options': 'g',
-    'replacement': 'HP (Hard Pull)'
+    'replacement': '$1 (Hard Pull)'
+  },
+  {
+    'regex': '\\b(SPs?)\\b',
+    'options': 'g',
+    'replacement': '$1 (Soft Pull)'
   }
 ];

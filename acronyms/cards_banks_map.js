@@ -3,14 +3,24 @@
 
 let cards_banks_map = [
   {
-    'regex': '\\b(CSR)\\b',
+    'regex': '\\b(CSRs?)\\b',
     'options': 'g',
-    'replacement': 'CSR (Chase Sapphire Reserve or Customer Service Rep)'
+    'replacement': '$1 (Chase Sapphire Reserve or Customer Service Rep)'
   },
   {
-    'regex': '\\b(CSP)\\b',
+    'regex': '\\b(CSPs?)\\b',
     'options': 'g',
-    'replacement': 'CSP (Chase Sapphire Preferred)'
+    'replacement': '$1 (Chase Sapphire Preferred)'
+  },
+  {
+    'regex': '\\b(CU)\\b',
+    'options': 'g',
+    'replacement': 'CU (Credit Union)'
+  },
+  {
+    'regex': '\\b(IHG)\\b',
+    'options': 'g',
+    'replacement': 'IHG (Chase IHG Rewards Select)'
   },
   {
     'regex': '\\b(CIP)\\b',
@@ -18,9 +28,9 @@ let cards_banks_map = [
     'replacement': 'CIP (Chase Ink Preferred)'
   },
   {
-    'regex': '\\b(CIC)\\b',
+    'regex': '\\b(CICs?)\\b',
     'options': 'g',
-    'replacement': 'CIC (Chase Ink Cash)'
+    'replacement': '$1 (Chase Ink Cash)'
   },
   {
     'regex': '\\b(CPC)\\b',
@@ -28,14 +38,14 @@ let cards_banks_map = [
     'replacement': 'CPC (Chase Private Client)'
   },
   {
-    'regex': '\\b(CF)\\b',
+    'regex': '\\b(CFs?)\\b',
     'options': 'g',
-    'replacement': 'CF (Chase Freedom)'
+    'replacement': '$1 (Chase Freedom)'
   },
   {
-    'regex': '\\b(CFU)\\b',
+    'regex': '\\b(CFUs?)\\b',
     'options': 'g',
-    'replacement': 'CFU (Chase Freedom Unlimited)'
+    'replacement': '$1 (Chase Freedom Unlimited)'
   },
   {
     'regex': '\\b(BCE)\\b',
@@ -46,6 +56,16 @@ let cards_banks_map = [
     'regex': '\\b(BCP)\\b',
     'options': 'g',
     'replacement': 'BCP (Amex Blue Cash Preferred)'
+  },
+  {
+    'regex': '\\b(BBP)\\b',
+    'options': 'g',
+    'replacement': 'BBP (Amex Blue Business Plus)'
+  },
+  {
+    'regex': '\\b(MB( Plati.*)?)\\b',
+    'options': 'g',
+    'replacement': '$1 (Amex Mercedes Benz Platinum)'
   },
   {
     'regex': '\\b(MPE)\\b',
@@ -73,9 +93,14 @@ let cards_banks_map = [
     'replacement': 'Cap1 (Capital One)'
   },
   {
-    'regex': '\\b(MCGC)\\b',
+    'regex': '\\b(USB)\\b',
     'options': 'g',
-    'replacement': 'MCGC (MasterCard Gift Card)'
+    'replacement': 'USB (US Bank)'
+  },
+  {
+    'regex': '\\b(MCGCs?)\\b',
+    'options': 'g',
+    'replacement': '$1 (MasterCard Gift Card)'
   },
   {
     'regex': '\\b(PP)\\b',
@@ -83,8 +108,8 @@ let cards_banks_map = [
     'replacement': 'PP (Priority Pass)'
   },
   {
-    'regex': '\\b(VGC)\\b',
+    'regex': '\\b(VGCs?)\\b',
     'options': 'g',
-    'replacement': 'VGC (Visa Gift Card)'
+    'replacement': '$1 (Visa Gift Card)'
   }
 ];
