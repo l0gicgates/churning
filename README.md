@@ -80,6 +80,7 @@ Below are the currently supported acronyms and their meaning
 * BBP (Amex Blue Business Plus)
 * MB (Amex Mercedes Benz Platinum)
 * USB (US Bank)
+* GoC (Gift of College gift card)
              
 ## Airlines
 * AA (American Airlines) 
