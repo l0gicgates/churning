@@ -113,6 +113,11 @@ let general_terms_map = [
     'replacement': 'FTF (Foreign Transaction Fee)'
   },
   {
+    'regex': '\\b(HEB)\\b',
+    'options': 'g',
+    'replacement': 'HEB (HEB Grocery Stores)'
+  },
+  {
     'regex': '\\b(HPs?)\\b',
     'options': 'g',
     'replacement': '$1 (Hard Pull)'

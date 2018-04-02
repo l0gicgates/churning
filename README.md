@@ -41,6 +41,7 @@ Below are the currently supported acronyms and their meaning
 * SM (Secure Message) 
 * GE (Global Entry)
 * CPP (Cents per Point) 
+* CA (Cash Advance or California) 
 * SO (Significant Other) 
 * HUCA (Hang Up and Call Again)
 * 5/24 (5 credit cards in 24 months)
@@ -49,6 +50,9 @@ Below are the currently supported acronyms and their meaning
 * FTF (Foreign Transaction Fee)
 * HP (Hard Pull - Credit Check)
 * SP (Soft Pull - Credit Check)
+* HEB (HEB Grocery Stores)
+* POS (Point of Sale terminal) 
+
 
 ## Credit Agencies
 * EQ (Eqifax) 
@@ -70,7 +74,8 @@ Below are the currently supported acronyms and their meaning
 * MPE (Mileage Plus Explorer) 
 * RB (Redbird Target Prepaid)
 * AMEX (American Express) 
-* BP (American Express BlueBird Prepaid) 
+* BNO (BMO Harris Bank)
+* BB (American Express BlueBird Prepaid) 
 * MCGC (MasterCard Gift Card) 
 * PP (Priority Pass) 
 * CP (Southwest Companion Pass)

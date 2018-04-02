@@ -93,6 +93,11 @@ let cards_banks_map = [
     'replacement': 'Cap1 (Capital One)'
   },
   {
+    'regex': '\\b(BMO)\\b',
+    'options': 'g',
+    'replacement': 'BMO (BMO Harris Bank)'
+  },
+  {
     'regex': '\\b(USB)\\b',
     'options': 'g',
     'replacement': 'USB (US Bank)'
