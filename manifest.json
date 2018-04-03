@@ -2,11 +2,16 @@
 "manifest_version": 2,
     "name": "Reddit Churning Acronyms",
     "description": "Replaces common churning acronyms with their actual meaning",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
+  },
+   "applications": {
+    "gecko": {
+      "id": "churning@mozilla.org"
+    }
   },
     "content_scripts": [
         {
