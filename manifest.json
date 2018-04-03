@@ -8,11 +8,6 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-   "applications": {
-    "gecko": {
-      "id": "churning@mozilla.org"
-    }
-  },
     "content_scripts": [
         {
             "matches": [
